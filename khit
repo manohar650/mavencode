@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>kallamharanadhareddy institute of technology</title>
+
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME STYLE  -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- ANIMATE STYLE  -->
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <!-- FLEXSLIDER STYLE  -->
+    <link href="assets/css/flexslider.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE  -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- GOOGLE FONTS  -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css' />
+     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css' />
+	<style type="text/css">
+	body
+	{
+	background-color:gray;
+	}
+	</style>
+</head>
+<body>
+
+	<div class="navbar navbar-inverse set-radius-zero" style="background-color:red">
+        <div class="container">
+            <div class="navbar-header" >
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+
+                    <img src="C:\Users\manohar\Desktop\khit\KHIT.jpg" height=125 width=125 />
+					<img src="C:\Users\manohar\Desktop\khit\image.png" height=125 width=825 />
+                </a>
+
+            </div>
+			
+				<div class="right-div">
+					<img src="C:\Users\manohar\Desktop\khit\ECE.jpg" height=125 width=125 />
+				</div>
+            </div>
+        </div>
+    </div>
+	
+		<section class="menu-section">
+			<div class="container">
+				<div class="row ">
+					<div class="col-md-12">
+						<div class="navbar-collapse collapse ">
+							<ul id="menu-top" class="nav navbar-nav navbar-right">
+								 <li><a href="khit.html" class="menu-top-active">home</a></li>
+                                 <li><a href="aboutece.html" >about ECE</a></li>
+								 <li><a href="ourstaff.html" >our staff</a></li>
+								 <li><a href="achievements.html">achievements</a></li>
+								 <li><a href="Gallary.html">Gallary</a></li>
+								 <li><a href="contact us.html">contact us</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	
+	</div>
+	<!--------------mainpageEND----------------->
+	
+		<section class="menu-section">
+			<div class="container">
+				<div class="row ">
+					<div class="col-md-12">
+					<font color="#000000"><strong><marquee width="850" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="3" direction="left" align="right" behavior="scroll" hieght="30">
+					***&nbsp;&nbsp;***&nbsp;&nbsp;FOR ADMISSIONS CONTACT PARA SOWMYA PH.NO:8885999650&nbsp;&nbsp;*** </marquee></strong></font>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+	<!-------------latest updates END------------>
+		<div class="col-sm-8">
+		<div id="slideshow-sec">
+			<div id="carousel-div" class="carousel slide" data-ride="carousel" >
+                   
+                    <div class="carousel-inner">
+                        <div class="item active">
+
+                            <img src="assets/img/1.jpg" alt="ANNUAL DAY" />
+                            <div class="carousel-caption">
+								 <h1 class="wow slideInLeft" data-wow-duration="2s" >ANNUAL DAY</h1>      
+                                 <h2 class="wow slideInRight" data-wow-duration="2s" >CELEBRATIONS</h2>  
+                            </div>
+                           
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/2.jpg" alt="TECHERS DAY" />
+                            <div class="carousel-caption">
+								 <h1 class="wow slideInLeft" data-wow-duration="2s" >TECHERS DAY</h1>      
+                                 <h2 class="wow slideInRight" data-wow-duration="2s" >CELEBRATIONS</h2>  
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/3.jpg" alt="TELUGU SAMBARALU" />
+                            <div class="carousel-caption">
+								 <h1 class="wow slideInLeft" data-wow-duration="2s" >TELUGU SAMBARALU</h1>      
+                                 <h2 class="wow slideInRight" data-wow-duration="2s" >CELEBRATIONS</h2>  
+                            </div>
+                           
+                        </div>
+						<div class="item">
+                            <img src="assets/img/4.jpg" alt="TELUGU SAMBARALU" />
+                            <div class="carousel-caption">
+								 <h1 class="wow slide" data-wow-duration="2s" >VTPS</h1>      
+                                 <h2 class="wow slideInRight" data-wow-duration="2s" >visit</h2>  
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <!--INDICATORS-->
+                     <ol class="carousel-indicators">
+                        <li data-target="#carousel-div" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-div" data-slide-to="1"></li>
+                        <li data-target="#carousel-div" data-slide-to="2"></li>
+						<li data-target="#carousel-div" data-slide-to="3"></li>
+                     </ol>
+                    <!--PREVIUS-NEXT BUTTONS-->
+                     <a class="left carousel-control" href="#carousel-div" data-slide="prev">
+					 <span class="glyphicon glyphicon-chevron-left"></span>
+					 </a>
+					 <a class="right carousel-control" href="#carousel-div" data-slide="next">
+					 <span class="glyphicon glyphicon-chevron-right"></span>
+					 </a>
+            </div>
+		</div>
+		</div>
+	<div class="col-sm-4">
+		<td width="400" height="1080" align="center" valign="top" style="" border-style="solid"; border-width="5px";><blink><strong><font facecalibri color="yellow">Latest Updates:</font></strong></blink><br /><hr color="white" width="100%" />
+		<marquee direction="up" behavior="scroll" loop="-1" onmouseover="this.stop()" onmouseout="this.start()" align="absbottom" scrollamount="3">
+		<font face="calibri" color="yellow">
+		<p>2-2 sem exams from 20-5-2015</P>
+		<br/>
+		<br/>
+		<p>2-2 sem exams from 20-5-2015</P>
+		<br/>
+		<br/>
+		<p>3-1 starts from 03-07-2015</p>
+		<br/>
+		<br/>
+		<p>3-1 starts from 03-07-2015</p>
+		<br />
+		<br />
+
+      
+		</font></marquee>
+		</td>
+	</div>
+		<br/>
+		<br/>
+		<br/>
+		<!-------------EVENTS END------------------>
+	
+	<br/>
+	 <font color="yellow">
+	 <div id="tf-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="2.jpg" class="img-responsive">
+                </div>
+                <div class="col-md-6" >
+                    <div class="about-text">
+                        <div class="section-title">
+						<font color="RED">
+                            <h1> About ECE </h1></font>
+                            <hr>
+                            <div class="clearfix"></div>
+							<ul class="about-list">
+                            <li>
+                                <strong><h2>What does an Electronics & Communication Engineer do?</h2></strong>
+                            </li>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<li>
+                                <strong><h2>What is the future for a Electronics & Communication Engineering graduate?</h2></strong>
+                            </li>
+							
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+	 </font>
+	
+	<br/>
+	<br/>
+	<!--------------about us END----------->
+	
+		<div class="container">
+           <div class="section-title center">
+			<font color="RED">
+                <h1>our faculty</h1>
+                <div class="line">
+                    <hr>
+				</font>		
+				</div>
+            <div class="space"></div>
+            <div class="row">
+				<tr>
+      
+				<td rowspan="2" valign="top">
+				<table width="95%" border="0" cellpadding="2px" cellspacing="0" padding-left:25px;">
+        
+        
+          
+				<tr>
+				<td width="20%" class="text">&nbsp;</td>
+				<td width="76%" class="text">&nbsp;</td>
+				</tr>
+
+				<tr></tr>
+        
+				<tr>
+				<td width="100%" align="center">
+				<table width="100%" border="1" align="center">
+				<tr style="border:darkorange thin solid" bgcolor="white" align="center">
+				<th width="10%" align="center">S.no</th>
+				<th width="30%" align="center">Name</th>
+				<th width="20%" align="center"><p>Designation</p></th>
+				<th width="20%" align="center">Qualification</th>
+				<th width="20%" align="center">Experiance</th></tr>
+				<tr style="border:darkorange thin solid" bgcolor="white" align="center">
+				<td>1</td>
+				<td>Prof.S.Suryanaryana</td>
+				<td><p>Professor &amp; H.O.D.</p></td>
+				<td>M.Tech., Ph.D</td>
+				<td>23</td>
+				</tr>
+				<tr style="border:darkorange thin solid" bgcolor="white" align="center">
+				<td>2</td>
+				<td>Prof.K.V.Ram prasad</td>
+				<td><p>Professor</p></td>
+				<td>M.Tech,Ph.D</td>
+				<td>14</td>
+				</tr>
+				<tr style="border:darkorange thin solid" bgcolor="white" align="center">
+				<td>3</td>
+				<td>Mr.B.Ramachandraiah</td>
+				<td><p>Assoc Prof</p></td>
+				<td>M.Tech</td>
+				<td>13</td>
+				</tr>
+				<tr style="border:darkorange thin solid" bgcolor="white" align="center">
+				<td>4</td>
+				<td>Mr.D.Ramanaidu</td>
+				<td><p>Assoc Prof</p></td>
+				<td>M.Tech</td>
+				<td>10</td>
+				</tr>
+				<tr style="border:darkorange thin solid" bgcolor="white" align="center">
+				<td>5</td>
+				<td>Mr.A.Manikanth</td>
+				<td><p>Asst.Prof</p></td>
+				<td>M.Tech</td>
+				<td>8</td>
+				</tr>
+				<tr style="border:darkorange thin solid" bgcolor="white" align="center">
+				<td>6</td>
+				<td>Mr.T.Srikanth Reddy</td>
+				<td><p>Asst.Prof</p></td>
+				<td>M.Tech</td>
+				<td>8</td>
+				</tr>
+				<tr style="border:darkorange thin solid" bgcolor="white" align="center">
+				<td>7</td>
+				<td>Ms.R.Srivasavi</td>
+				<td><p>Asst.Prof</p></td>
+				<td>M.Tech</td>
+				<td>5</td>
+				</tr>
+				<tr style="border:darkorange thin solid" bgcolor="white" align="center">
+				<td>8</td>
+				<td>Ms.R.Sravanthi</td>
+				<td><p>Asst.Prof</p></td>
+				<td>M.Tech</td>
+				<td>6</td>
+				<tr style="border:darkorange thin solid" bgcolor="white" align="center">
+				<td>9</td>
+				<td>Ms.P.Srilakshmi</td>
+				<td><p>Asst.Prof</p></td>
+				<td>M.Tech</td>
+				<td>3</td>
+				</tr>
+				<tr style="border:darkorange thin solid" bgcolor="white" align="center">
+				<td>10</td>
+				<td>Mrs.C.Suneetha</td>
+				<td><p>Asst.Prof</p></td>
+				<td>M.Tech</td>
+				<td>7</td>
+				</tr>
+				<tr style="border:darkorange thin solid" bgcolor="white" align="center">
+				<td>11</td>
+				<td>Ms.V.Sindhuri</td>
+				<td><p>Asst.Prof</p></td>
+				<td>M.Tech</td>
+				<td>3</td>
+				</tr>
+				</table>
+				</td>
+				</tr>       
+				<tr>
+				<td width="20%" class="text">&nbsp;</td>
+				<td width="76%" class="text">&nbsp;</td>
+				</tr>
+       
+				</table>
+				</td>
+				</tr>
+       
+				</table>
+			</div>
+		</div>
+		<hr>
+	<!-----------departments END------------->
+		
+	<div id="tf-works">
+        <div class="container"> <!-- Container -->
+            <div class="space"></div>
+
+            <div class="categories">
+                <font color="RED">
+                <ul class="cat">
+                    <li class="pull-left"><h1>GALLARY:</h1></li>
+                    <li class="pull-right">
+                        <ol class="type">
+                            <li><a href="#" data-filter="*" class="active">All</a></li>
+                            <li><a href="#" data-filter=".web">FUNCTIONS</a></li>
+                            <li><a href="#" data-filter=".photography">INDUSTORY VISITS</a></li>
+                            <li><a href="#" data-filter=".app" >SPEAKERS</a></li>
+                            <li><a href="#" data-filter=".branding" >DYNAMIC PERSONS</a></li>
+                        </ol>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+				</font>
+            </div>
+
+            <div id="lightbox" class="row">
+
+                <div class="col-sm-6 col-md-3 col-lg-3 branding">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/01.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 photography app">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/02.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 branding">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/03.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 branding">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/04.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 web">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/05.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 app">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/06.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 photography web">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/07.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 web">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/08.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+		 <script src="assets/js/jquery-1.11.1.min.js"></script>
+		<!--BOOTSTRAP SCRIPTS PLUGIN-->
+		<script src="assets/js/bootstrap.js"></script>
+		<!--WOW SCRIPTS PLUGIN-->
+		<script src="assets/js/wow.js"></script>
+		<!--FLEXSLIDER SCRIPTS PLUGIN-->
+		<script src="assets/js/jquery.flexslider.js"></script>
+		<!--CUSTOM SCRIPTS -->
+		<script src="assets/js/custom.js"></script>
+	</body>	
+	</html>
+    <!-- SLIDESHOW SECTION END-->
+
+   
