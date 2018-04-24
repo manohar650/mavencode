@@ -1,0 +1,36 @@
+	<html>
+	<head>
+	<style type="text/css">
+	p.uppercase {text-transform:uppercase}
+	p.lowercase {text-transform:lowercase}
+	p.capitalize {text-transform:capitalize}
+	</style>	
+
+	</head>
+	
+	<body>
+
+		<form>
+		<h1 style="color:rgb(50,600,150)">First name:
+		<input type="text" name="firstname" /></h1>
+		<br />
+		<p class=uppercase>Last name:
+		<input type="text" name="lastname" /> </p> <br/> 
+
+		<input type="radio" name="sex" value="male" /> Male
+		<br />
+		<input type="radio" name="sex" value="female" /> Female<br/>
+		<form>
+		<p class=capitalize>I have a bike:
+		<input type="checkbox" name="vehicle" value="Bike" /> </p>
+		<br />
+		I have a car:
+		<input type="checkbox" name="vehicle" value="Car" />
+		<br />
+		<p class=lowercase>I have an airplane:
+		<input type="checkbox" name="vehicle" value="Airplane" /></p>
+		</form>
+
+		</form>
+	</body>	
+	</html>	
